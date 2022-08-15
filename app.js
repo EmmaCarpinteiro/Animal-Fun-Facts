@@ -8,9 +8,9 @@ const showBackground = true;
 
 const background = (
   <img
-  className = "background"
-  alt = "ocean"
-  src='/images/ocean.jpg'
+    className = "background"
+    alt = "ocean"
+    src='/images/ocean.jpg'
   />
 )
 
@@ -41,12 +41,12 @@ function displayFact(e){
 
 const animalFacts = ( 
   <div>
-  <h1> {title || "Click an animal for a fun fact"}</h1>
-  {showBackground && background}
-  <p id="fact"></p>
-  <div className='animals'>
-  {images}
-  </div>
+    <h1> {title || "Click an animal for a fun fact"}</h1>
+    {showBackground && background}
+    <p id="fact"></p>
+    <div className='animals'>
+    {images}
+    </div>
 </div>
 )
 
